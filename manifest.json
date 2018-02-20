@@ -1,0 +1,9 @@
+{
+    "manifest_version": 2,
+    "name": "KFC: a surviv.io assistant",
+    "version": "0.1",
+    "content_scripts": [{
+        "matches": ["http://surviv.io/*"],
+        "js": ["registry.js", "kfc.js", "main.js"]
+    }]
+}
